@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "UsecaseAgreement": {
+      "@id": "https://raw.githubusercontent.com/Cofinity-X/schema-registry/main/v1.1/UserCaseVC#UsecaseAgreement",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "contractTemplate": {
+          "@id": "ex:contractTemplate",
+          "@type": "https://schema.org/Text"
+        },
+        "contractVersion": {
+          "@id": "ex:contractVersion",
+          "@type": "https://schema.org/Float"
+        }
+      }
+    }
+  }
+}
