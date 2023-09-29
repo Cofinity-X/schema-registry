@@ -38,7 +38,7 @@ Schema Reference: [BusinesspartnerData](./v1.1/businessPartnerData)
 
 #### BPN Credential
 
-Property | BpnCredential
+Property | Description
 --- | ---
 **id** | Id property that defines the Holder.
 **type** | MUST contain "BpnCredential"
@@ -67,7 +67,7 @@ Property | BpnCredential
 
 #### Membership Credential
 
-Property | MembershipCredential
+Property | Description
 --- | ---
 **id** | Id property that defines the Holder.
 **type** | MUST contain "MembershipCredential"
@@ -149,7 +149,7 @@ The Schema contains the Dismantler Credential Template
 
 Schema Reference: [DismantlerSchema](./v1.1/DismantlerVC)
 
-Property | MembershipCredential
+Property | Description
 --- | ---
 **id** | Id property that defines the Holder.
 **type** | MUST contain "MembershipCredential"
@@ -183,7 +183,10 @@ Property | MembershipCredential
 
 The Summary Credentials is an Credential which sums up the Owned CX Credentials in one VC.
 
-Property | Contract Template
+Schema Reference: [SummarySchema](./v1.1/SummaryVC)
+
+
+Property | Description
 --- | ---
 **id** | Id property that defines the contract template identity.
 **type** | MUST contain "SummaryCredential"
