@@ -126,7 +126,7 @@ Name | Description
 {
     "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        ...
+        "..."
     ],    
     "id": "UUID",
     "issuer": "<issuerDID>",
@@ -162,7 +162,7 @@ Property | Description
 {
     "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        ...
+        "..."
     ],
     "id": "UUID",
     "issuer": "<did>",
@@ -201,7 +201,7 @@ Property | Description
  {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
-    ...
+    "..."
   ],
   "id": "<credential uid>",
   "type": [
