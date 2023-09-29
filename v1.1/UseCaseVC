@@ -2,22 +2,24 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "UsecaseAgreement": {
-      "@id": "https://raw.githubusercontent.com/Cofinity-X/schema-registry/main/v1.1/UserCaseVC#UsecaseAgreement",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "contractTemplate": {
-          "@id": "ex:contractTemplate",
-          "@type": "https://schema.org/Text"
-        },
-        "contractVersion": {
-          "@id": "ex:contractVersion",
-          "@type": "https://schema.org/Float"
-        }
-      }
-    }
+    "id": "@id",
+    "type": "@type",
+    "UseCaseFrameworkCondition": {
+      "@id": "https://raw.githubusercontent.com/Cofinity-X/schema-registry/main/v1.1/UseCaseVC#UseCaseFrameworkCondition",
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+      ]
+    },
+    "holderIdentifier": {
+      "@id": "http://schema.org/identifier"
+    },
+    "contractTemplate":"https://schema.org/URL",
+    "contractVersion": "https://schema.org/Float",
+    "BehaviorTwinCredential": "https://example.com/vocab#BehaviorTwinCredential",
+    "SustainabilityCredential": "https://example.com/vocab#SustainabilityCredential",
+    "QualityCredential": "https://example.com/vocab#QualityCredential",
+    "TraceabilityCredential": "https://example.com/vocab#TraceabilityCredential",
+    "ResiliencyCredential": "https://example.com/vocab#ResiliencyCredential",
+    "PcfCredential": "https://example.com/vocab#BehaviorTwinCredential"
   }
 }
