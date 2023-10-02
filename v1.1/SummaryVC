@@ -13,6 +13,7 @@
     "holderIdentifier": {
       "@id": "http://schema.org/identifier"
     },
-    "items": "https://schema.org/ItemList"
+    "items": "https://schema.org/ItemList",
+    "contractTemplate": "https://schema.org/URL"
   }
 }
