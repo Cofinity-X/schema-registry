@@ -34,6 +34,8 @@ An overview of the given Schemas and Credentials in this Registry.
 
 ### W3C verifiable credential schema
  This is a clone schema from https://www.w3.org/ns/credentials/v2
+ We added to avoid any production issue if w3c changes schema without any prior notice.
+
 
 
 ### BusinesspartnerData Schema
