@@ -11,7 +11,6 @@ in compliance to the Catena-X standard definitions for Credential formats.
 
 1. [Introduction](#introduction)
 2. [Context Schema](#context-schema)
-    - [W3C Verifiable credential schema](#w3c-verifiable-credential-schema)
     - [W3C BitstringStatusList credential schema](#w3c-bitstringstatusList-credential-schema)
     - [BusinesspartnerData Schema](#businesspartnerdata-schema)
         - [Membership Credential](#membership-credential)
@@ -32,10 +31,6 @@ The Cofinity-X system relies on a well-defined context schema to ensure accurate
 
 An overview of the given Schemas and Credentials in this Registry.
 
-
-### W3C verifiable credential schema
- This is a clone schema from https://www.w3.org/ns/credentials/v2
- We added to avoid any production issue if w3c changes schema without any prior notice.
 
 ### W3C BitstringStatusList credential schema
 The BitstringStatusList schema contains properties which are using in revocable verifiable credential and status list credentials.
